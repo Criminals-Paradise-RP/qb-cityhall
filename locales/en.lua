@@ -13,6 +13,7 @@ local Translations = {
         driver_license = 'Drivers License',
         weaponlicense = 'Firearms License',
         new_job = 'Congratulations with your new job! (%{job})',
+        huntinglicense = 'Hunting License', -- BOII HUNTING
     },
     email = {
         jobAppSender = "%{job}",
