@@ -36,6 +36,11 @@ Config.Cityhalls = {
                 cost = 50,
                 metadata = "weapon"
             },
+            ["huntinglicense"] = {  -- BOII HUNTING
+                label = "Hunting License",
+                cost = 50,
+                metadata = "hunting"
+            },
         }
     },
 }
@@ -43,7 +48,7 @@ Config.Cityhalls = {
 Config.DrivingSchools = {
     { -- Driving School 1
         coords = vec3(240.3, -1379.89, 33.74),
-        showBlip = true,
+        showBlip = false,
         blipData = {
             sprite = 225,
             display = 4,
