@@ -1,6 +1,6 @@
 Config = Config or {}
 
-Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
+Config.UseTarget = true -- GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
 
 Config.AvailableJobs = { -- Only used when not using qb-jobs.
     ["taxi"] = {["label"] = "Taxi", ["isManaged"] = false},
