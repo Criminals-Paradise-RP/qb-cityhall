@@ -7,7 +7,6 @@ Config.AvailableJobs = { -- Only used when not using qb-jobs.
     ["garbage"] = {["label"] = "Garbage Collector", ["isManaged"] = false},
     ["bus"] = {["label"] = "Bus Driver", ["isManaged"] = false},
     ["unemployed"] = {["label"] = "Unemployed", ["isManaged"] = false},
-    ["mailcarrier"] = {["label"] = "GoPostal Mail", ["isManaged"] = false},
 }
 
 Config.Cityhalls = {
