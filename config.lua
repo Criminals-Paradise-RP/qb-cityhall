@@ -2,11 +2,11 @@ Config = Config or {}
 
 Config.UseTarget = true -- GetConvar('UseTarget', 'false') == 'true' -- Use qb-target interactions (don't change this, go to your server.cfg and add `setr UseTarget true` to use this and just that from true to false or the other way around)
 
-Config.AvailableJobs = { -- Only used when not using qb-jobs.
-    ["taxi"] = {["label"] = "Taxi", ["isManaged"] = false},
-    ["garbage"] = {["label"] = "Garbage Collector", ["isManaged"] = false},
-    ["bus"] = {["label"] = "Bus Driver", ["isManaged"] = false},
-    ["unemployed"] = {["label"] = "Unemployed", ["isManaged"] = false},
+Config.AvailableJobs = {                                     -- Only used when not using qb-jobs.
+    ['trucker'] = { ['label'] = 'Trucker', ['isManaged'] = false },
+    ['taxi'] = { ['label'] = 'Taxi', ['isManaged'] = false },
+    ['garbage'] = { ['label'] = 'Garbage Collector', ['isManaged'] = false },
+    ['bus'] = { ['label'] = 'Bus Driver', ['isManaged'] = false },
 }
 
 Config.Cityhalls = {
@@ -16,24 +16,24 @@ Config.Cityhalls = {
         blipData = {
             sprite = 408,
             display = 4,
-            scale = 0.8,
-            colour = 5 ,
-            title = "City Services"
+            scale = 0.65,
+            colour = 0,
+            title = 'City Services'
         },
         licenses = {
-            ["id_card"] = {
-                label = "ID Card",
+            ['id_card'] = {
+                label = 'ID Card',
                 cost = 50,
             },
-            ["driver_license"] = {
-                label = "Driver License",
+            ['driver_license'] = {
+                label = 'Driver License',
                 cost = 50,
-                metadata = "driver"
+                metadata = 'driver'
             },
-            ["weaponlicense"] = {
-                label = "Weapon License",
+            ['weaponlicense'] = {
+                label = 'Weapon License',
                 cost = 50,
-                metadata = "weapon"
+                metadata = 'weapon'
             },
             ["huntinglicense"] = {  -- BOII HUNTING
                 label = "Hunting License",
@@ -53,12 +53,12 @@ Config.DrivingSchools = {
             display = 4,
             scale = 0.8,
             colour = 3,
-            title = "Driving School"
+            title = 'Driving School'
         },
         instructors = {
-            "DJD56142",
-            "DXT09752",
-            "SRI85140",
+            'DJD56142',
+            'DXT09752',
+            'SRI85140',
         }
     },
 }
