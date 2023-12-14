@@ -69,14 +69,14 @@ RegisterNetEvent('qb-cityhall:server:requestId', function(item, hall)
         info.firstname = Player.PlayerData.charinfo.firstname
         info.lastname = Player.PlayerData.charinfo.lastname
         info.birthdate = Player.PlayerData.charinfo.birthdate
-    else
-        return false -- DropPlayer(src, 'Attempted exploit abuse')
     elseif item == "huntinglicense" then -- BOII HUNTING
 		info.citizenid = Player.PlayerData.citizenid
         info.firstname = Player.PlayerData.charinfo.firstname
         info.lastname = Player.PlayerData.charinfo.lastname
         info.birthdate = Player.PlayerData.charinfo.birthdate
 		info.gender = Player.PlayerData.charinfo.gender
+    else
+        return false -- DropPlayer(src, 'Attempted exploit abuse')
     end
     if not Player.Functions.AddItem(item, 1, nil, info) then return end
     TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[item], 'add')
