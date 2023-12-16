@@ -4,9 +4,9 @@ Config.UseTarget = true -- GetConvar('UseTarget', 'false') == 'true' -- Use qb-t
 
 Config.AvailableJobs = {                                     -- Only used when not using qb-jobs.
     ['trucker'] = { ['label'] = 'Trucker', ['isManaged'] = false },
-    ['taxi'] = { ['label'] = 'Taxi', ['isManaged'] = false },
     ['garbage'] = { ['label'] = 'Garbage Collector', ['isManaged'] = false },
     ['bus'] = { ['label'] = 'Bus Driver', ['isManaged'] = false },
+    ['postal'] = { ['label'] = 'GoPostal', ['isManaged'] = false }
 }
 
 Config.Cityhalls = {
@@ -16,7 +16,7 @@ Config.Cityhalls = {
         blipData = {
             sprite = 408,
             display = 4,
-            scale = 0.65,
+            scale = 0.8,
             colour = 0,
             title = 'City Services'
         },
