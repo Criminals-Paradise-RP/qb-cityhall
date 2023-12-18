@@ -6,7 +6,6 @@ Config.AvailableJobs = {                                     -- Only used when n
     ['trucker'] = { ['label'] = 'Trucker', ['isManaged'] = false },
     ['garbage'] = { ['label'] = 'Garbage Collector', ['isManaged'] = false },
     ['bus'] = { ['label'] = 'Bus Driver', ['isManaged'] = false },
-    ['postal'] = { ['label'] = 'GoPostal', ['isManaged'] = false }
 }
 
 Config.Cityhalls = {
